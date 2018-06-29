@@ -1,0 +1,17 @@
+/*
+	 * @RequestMapping(value="/test") public ModelAndView test( @RequestParam(value=
+	 * "greeting", required=false)String greeting) { ModelAndView mv = new
+	 * ModelAndView( "page"); if( greeting == null) { greeting = "Hello There!"; }
+	 * mv.addObject("greeting",greeting); return mv;
+	 * 
+	 * }
+	 */
+	// purpose to clean URL
+	/*
+	 * @RequestMapping(value = "/test/{greeting}") public ModelAndView
+	 * test(@PathVariable("greeting") String greeting) { if (greeting == null) {
+	 * greeting = "hello null"; } ModelAndView mv = new ModelAndView("page");
+	 * mv.addObject("greeting", greeting); return mv;
+	 * 
+	 * }
+	 */}
