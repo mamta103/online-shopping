@@ -89,7 +89,8 @@
 		</div>
 
 
-		<!-- Footer comes here -->
+		<!-- Footer comes he
+		re -->
 		<%@include file="./shared/footer.jsp"%>
 </div>
 
